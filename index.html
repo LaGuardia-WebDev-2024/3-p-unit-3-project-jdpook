@@ -7,10 +7,10 @@ Requirements
 
 Select ONE Additional Feature to Add  
 [ no ] Feature 1 - Include :hover Effect
-[ no ] Feature 2 - Change the Cursor
+[ yes ] Feature 2 - Change the Cursor
 [ no ] Feature 3 - Make a Background Color Semi-Transparent
 [ no ] Feature 4 - Include at Flip Card
-[ no ] Feature 5 - Include at least two Internal links
+[ yes ] Feature 5 - Include at least two Internal links
 -->
 
 <!DOCTYPE html>
@@ -20,8 +20,16 @@ Select ONE Additional Feature to Add
   <title>Project: Recipe book</title>
   <meta charset="utf-8">
   <style>
-    body{cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='40' height='48' viewport='0 0 100 100' style='fill:black;font-size:24px;'><text y='50%'>🍫</text></svg>") 16 0,auto; /*!emojicursor.app*/}
-  
+    body{cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='40' height='48' viewport='0 0 100 100' style='fill:black;font-size:24px;'><text y='50%'>🍫</text></svg>") 16 0,auto; /*!emojicursor.app*/
+    background-color: rgb(151, 80, 48);}
+     table, th, td {border: 1px solid;}
+     img{border: 5px solid rgb(136, 168, 47)}
+     
+     h1 {color: rgb(136, 168, 47)}
+     h2 {color: rgb(136, 168, 47)}
+    h3 {color: rgb(136, 168, 47)}
+     
+
   </style>
 </head>
 
@@ -32,11 +40,11 @@ Select ONE Additional Feature to Add
   <h2>CONTENTS:</h2>
 
   <ol>
-    <li><a href="?">Recipe</a></li>
-      <li><a href="?">Sources</a></li>
+    <li><a href="#recipe">Recipe</a></li>
+      <li><a href="#sources">Sources</a></li>
   </ol>
 
-  <h2 id="?">RECIPE #1</h2>
+  <h2 id="recipe">RECIPE #1</h2>
 
   <ul>
     <li>Time:35</li>
@@ -53,22 +61,22 @@ Select ONE Additional Feature to Add
     <tbody>
       <tr>
         <td> Chocolate Bar</td>
-        <td>1</td>
+        <td>1 bar maybe</td>
       </tr>
        <td>Chocolate Chips</td>
-        <td>1</td>
+        <td>1 bag maybe</td>
       </tr>
         <td>Kataifi</td>
-        <td>1</td>
+        <td>1 bag maybe</td>
         </tr>
         <td>Pistachio Butter</td>
-        <td>1</td>
+        <td>1 slab maybe</td>
          </tr>
         <td>Tahini</td>
-        <td>1</td>
+        <td>1 bag maybe</td>
         <tr></tr>
         <td>Salt</td>
-        <td>1</td>
+        <td>4 tbs maybe</td>
     </tbody>
   </table>
 
@@ -83,12 +91,14 @@ Select ONE Additional Feature to Add
   <p><strong>Step 8:</strong> Divide the pistachio filling mixture equally into the chocolate molds, spreading it out evenly.</p>
   <p><strong>Step 9:</strong> Pour the remaining melted chocolate over the pistachio filling and use a pastry brush to evenly cover the pistachio.</p>
   <p><strong>Step 10:</strong> Freeze until set, then remove from mold.</p>
+<img src= "https://assets.tmecosys.com/image/upload/t_web_rdp_recipe_584x480_1_5x/img/recipe/ras/Assets/5a0366769f8b437ffdc8a67b556fa53b/Derivates/8bedb49db396eca112723b321569fc7d1b3a6c47.jpg"width=100 height="100">
+<img src="https://simplyhomecooked.com/wp-content/uploads/2024/06/pistachio-chocolate-bar-dubai-chocolate-2.jpg" width="100">
+<img src="https://www.loveandotherspices.com/wp-content/uploads/2025/02/dubai-chocolate-bar-featured.jpg"width=100>
 
-  <p><em>Source: <a href="?">Some recipes websites</a></em></p>
 
-<h3>SOURCES</h3>
-<a href="https://feelgoodfoodie.net/recipe/dubai-chocolate-bar/">Sources</a></li>
-
+<h3 id="sources">SOURCES</h3>
+<a href="https://feelgoodfoodie.net/recipe/dubai-chocolate-bar/">Original recipe</a></li>
+<a href="https://www.tiktok.com/@billieeilish/video/7541847334330600735">Vegan version</a>
 </body>
 
 </html>
